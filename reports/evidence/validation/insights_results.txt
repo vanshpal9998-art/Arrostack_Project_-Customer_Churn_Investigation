@@ -1,0 +1,56 @@
+
+========== CUSTOMER CHURN INSIGHTS ==========
+
+1. OVERALL BUSINESS METRICS
+Total Customers: 7043
+Churned Customers: 1869
+Retained Customers: 5174
+Overall Churn Rate: 26.54 %
+
+2. CONTRACT-WISE CHURN RATE
+Contract
+Month-to-month    42.71
+One year          11.27
+Two year           2.83
+Name: Churn, dtype: float64
+
+3. TENURE-WISE CHURN RATE
+Tenure_Group
+0-12 Months     47.44
+13-24 Months    28.71
+25-48 Months    20.39
+49-72 Months     9.51
+Name: Churn, dtype: float64
+
+4. PAYMENT METHOD CHURN RATE
+PaymentMethod
+Electronic check             45.29
+Mailed check                 19.11
+Bank transfer (automatic)    16.71
+Credit card (automatic)      15.24
+Name: Churn, dtype: float64
+
+5. CUSTOMER SEGMENT CHURN RATE
+         Customers  Average_Tenure  Average_Monthly_Charges  Churn_Rate
+Cluster                                                                
+0             1732           10.49                    32.47       24.54
+1             1952           58.75                    93.02       15.62
+2             2204           14.81                    81.22       49.18
+3             1155           54.12                    34.03        4.76
+
+6. HIGH-RISK CUSTOMER GROUPS
+Highest churn contract: Month-to-month (42.71%)
+Highest churn payment method: Electronic check (45.29%)
+Highest churn tenure group: 0-12 Months (47.44%)
+Highest churn cluster: 2 (49.18%)
+
+7. BUSINESS RECOMMENDATIONS
+1. Review month-to-month contract customers and offer suitable longer-term plans where appropriate.
+2. Contact customers during their early subscription period with onboarding support.
+3. Investigate payment difficulties and make payment options easier for customers.
+4. Review high-risk customer segments and offer relevant retention support.
+5. Monitor churn rate regularly to measure whether retention campaigns are effective.
+
+Insights report saved at: reports/customer_churn_insights.txt
+
+========== INSIGHTS ANALYSIS COMPLETED ==========

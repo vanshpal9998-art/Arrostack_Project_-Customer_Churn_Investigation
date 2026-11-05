@@ -1,0 +1,49 @@
+
+========== DATA VALIDATION STARTED ==========
+
+PASS: All required columns are present.
+PASS: Dataset is not empty.
+Dataset Shape: (7043, 22)
+
+Duplicate Records: 0
+PASS: No duplicate records.
+
+Missing Values:
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+Cluster             0
+dtype: int64
+PASS: No missing values.
+PASS: Customer IDs are unique.
+PASS: Numeric values are within expected ranges.
+PASS: Churn values are valid.
+PASS: Cluster labels are valid.
+
+========== VALIDATION SUMMARY ==========
+Total Customers: 7043
+Total Columns: 22
+Total Clusters: 4
+Total Churned Customers: 1869
+Total Retained Customers: 5174
+
+ALL VALIDATION CHECKS PASSED!
+========== VALIDATION COMPLETED ==========

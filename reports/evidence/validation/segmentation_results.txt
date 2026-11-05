@@ -1,0 +1,31 @@
+
+========== CUSTOMER SEGMENTATION ==========
+
+Dataset Shape: (7043, 21)
+
+Feature scaling completed!
+Clusters: 2, Silhouette Score: 0.4108
+Clusters: 3, Silhouette Score: 0.4465
+Clusters: 4, Silhouette Score: 0.4762
+Clusters: 5, Silhouette Score: 0.4302
+Clusters: 6, Silhouette Score: 0.4154
+
+Best Number of Clusters: 4
+
+Customer clusters assigned successfully!
+
+========== CUSTOMER SEGMENT PROFILES ==========
+         Customer_Count  Average_Tenure  ...  Average_Total_Charges  Churn_Rate
+Cluster                                  ...                                   
+0                  1732           10.49  ...                 332.67       24.54
+1                  1952           58.75  ...                5475.00       15.62
+2                  2204           14.81  ...                1213.73       49.18
+3                  1155           54.12  ...                1833.52        4.76
+
+[4 rows x 5 columns]
+
+Segmented dataset saved at: data/processed/customer_segmented_churn.csv
+
+All segmentation charts saved successfully!
+
+========== SEGMENTATION COMPLETED ==========

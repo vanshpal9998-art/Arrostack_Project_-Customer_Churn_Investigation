@@ -1,0 +1,36 @@
+
+ Dataset Shape: (7043, 21)
+
+ Churn Distribution:
+Churn
+No     5174
+Yes    1869
+Name: count, dtype: int64
+
+Overall churn Rate: 0.0 %
+
+ Contract-wise churn percentage:
+Churn                  No        Yes
+Contract                            
+Month-to-month  57.290323  42.709677
+One year        88.730482  11.269518
+Two year        97.168142   2.831858
+
+ Payment Method-wise churn percentage:
+Churn                             No        Yes
+PaymentMethod                                  
+Bank transfer (automatic)  83.290155  16.709845
+Credit card (automatic)    84.756899  15.243101
+Electronic check           54.714588  45.285412
+Mailed check               80.893300  19.106700
+
+EDA GRAPH FILES SAVED:
+reports/figures/contract_vs_churn.png
+reports/figures/correlation_heatmap.png
+reports/figures/churn_distribution.png
+reports/figures/payment_method_vs_churn.png
+reports/figures/churn_by_segment.png
+reports/figures/tenure_vs_churn.png
+reports/figures/silhouette_scores.png
+reports/figures/monthly_charges_vs_churn.png
+reports/figures/customer_segments.png
